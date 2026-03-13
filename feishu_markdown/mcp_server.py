@@ -115,7 +115,7 @@ TOOLS = {
         },
     },
     "list_wiki_children": {
-        "description": "列出飞书知识库页面的子页面和同级页面列表。",
+        "description": "列出飞书知识库页面的子页面列表。如需查看同级页面，请对父页面调用此工具。",
         "inputSchema": {
             "type": "object",
             "properties": {
